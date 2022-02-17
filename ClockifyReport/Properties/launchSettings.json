@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ClockifyReport": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
