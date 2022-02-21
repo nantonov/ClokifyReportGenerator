@@ -1,9 +1,6 @@
 ﻿using ClockifyReport.Interfaces;
-using ClockifyReport.Models;
 using ClockifyReport.Services;
 using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
-using System;
 
 namespace ClockifyReport
 {
@@ -15,6 +12,7 @@ namespace ClockifyReport
             .AddHttpClient()
             .AddSingleton<IClockifyInfoService, ClockifyInfoService>()
             .AddSingleton<IExcelWriterService, ExcelWriterService>()
+            .AddAutoMapper(typeof(Program))
             .BuildServiceProvider();
 
             serviceProvider.GetService<IExcelWriterService>().CreateReport().Wait();

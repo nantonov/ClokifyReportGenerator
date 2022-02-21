@@ -6,7 +6,6 @@ namespace ClockifyReport.Interfaces
 {
     public interface IClockifyInfoService
     {
-        Task<User> GetUser();
-        Task<List<TimeEntries>> GetTimeEntries();
+        Task<IReadOnlyCollection<ReportData>> GetTimeEntries();
     }
 }
