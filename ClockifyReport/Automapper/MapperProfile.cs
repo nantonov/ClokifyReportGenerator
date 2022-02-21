@@ -11,7 +11,7 @@ namespace ClockifyReport.Automapper
         {
             CreateMap<TimeEntriesResponse, ReportData>()
                 .ForMember(x => x.Date, opt => opt.MapFrom(src => src.TimeInterval.Start))
-                .ForMember(x => x.Duration, opt => opt.MapFrom(src => XmlConvert.ToTimeSpan(src.TimeInterval.Duration).TotalHours));
+                .ForMember(x => x.Duration, opt => opt.MapFrom(src => XmlConvert.ToTimeSpan(src.TimeInterval.Duration)));
         }
     }
 }

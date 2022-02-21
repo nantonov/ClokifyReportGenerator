@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\ClockifyReport\\ClockifyReport\\ClockifyReport.csproj": {}
+    "D:\\MyProjects\\ClokifyReportGenerator\\ClockifyReport\\ClockifyReport.csproj": {}
   },
   "projects": {
-    "C:\\projects\\ClockifyReport\\ClockifyReport\\ClockifyReport.csproj": {
+    "D:\\MyProjects\\ClokifyReportGenerator\\ClockifyReport\\ClockifyReport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\ClockifyReport\\ClockifyReport\\ClockifyReport.csproj",
+        "projectUniqueName": "D:\\MyProjects\\ClokifyReportGenerator\\ClockifyReport\\ClockifyReport.csproj",
         "projectName": "ClockifyReport",
-        "projectPath": "C:\\projects\\ClockifyReport\\ClockifyReport\\ClockifyReport.csproj",
-        "packagesPath": "C:\\Users\\GOS\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\ClockifyReport\\ClockifyReport\\obj\\",
+        "projectPath": "D:\\MyProjects\\ClokifyReportGenerator\\ClockifyReport\\ClockifyReport.csproj",
+        "packagesPath": "C:\\Users\\nantonov\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProjects\\ClokifyReportGenerator\\ClockifyReport\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nantonov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,9 +40,29 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "DotNetCore.NPOI": {
               "target": "Package",
               "version": "[1.2.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
@@ -76,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

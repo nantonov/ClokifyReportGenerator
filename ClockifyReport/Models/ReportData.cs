@@ -8,6 +8,6 @@ namespace ClockifyReport.Models
 
         public string Description { get; set; }
 
-        public double Duration { get; set; }
+        public TimeSpan Duration { get; set; }
     }
 }
